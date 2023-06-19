@@ -16,6 +16,11 @@ public class MathUtil {
         if (b>0 && a%b ==0){
             return b;
         }
+
+        //esse método é a segunda versão do mdcP3
+        if(b==0){
+            return Math.abs(a);
+        }
         //primeira versão do failed
         return -1;//mdc inválido
     }
